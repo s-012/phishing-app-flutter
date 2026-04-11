@@ -257,10 +257,7 @@ class _MainScreenState extends State<MainScreen> {
             title: const Text(
               '검사 횟수 초과',
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             content: const Text(
               '비회원은 3회까지만 검사할 수 있어요.\n로그인 후 무제한으로 이용하세요!',
@@ -291,10 +288,7 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                   child: const Text(
                     '로그인하러 가기',
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -311,10 +305,7 @@ class _MainScreenState extends State<MainScreen> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  child: const Text(
-                    '닫기',
-                    style: TextStyle(fontSize: 16),
-                  ),
+                  child: const Text('닫기', style: TextStyle(fontSize: 16)),
                 ),
               ),
             ],
@@ -405,20 +396,17 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        toolbarHeight: 100,
+        toolbarHeight: 95, //앱바 크기 수정
         backgroundColor: Colors.white,
         surfaceTintColor: Colors.white,
         elevation: 0,
         scrolledUnderElevation: 0,
         centerTitle: true,
-        title: SizedBox(
-          height: 76,
-          width: MediaQuery.of(context).size.width * 0.55,
-          child: Image.asset(
-            'assets/images/logo.png',
-            fit: BoxFit.contain,
-            filterQuality: FilterQuality.high,
-          ),
+        title: Image.asset(
+          'assets/images/logo.png',
+          height: 200, //로고사진 크기 수정
+          fit: BoxFit.contain,
+          filterQuality: FilterQuality.high,
         ),
         iconTheme: const IconThemeData(color: Color(0xFF1976D2)),
       ),
