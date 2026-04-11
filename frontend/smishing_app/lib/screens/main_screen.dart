@@ -257,7 +257,14 @@ class _MainScreenState extends State<MainScreen> {
             title: const Text(
               '검사 횟수 초과',
               textAlign: TextAlign.center,
+<<<<<<< HEAD
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+=======
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
+>>>>>>> parent of 877601d (Revert ""챗봇 하단바 짤림 수정, 뒤로가기 버그 수정, 비회원 팝업창 추가"")
             ),
             content: const Text(
               '비회원은 3회까지만 검사할 수 있어요.\n로그인 후 무제한으로 이용하세요!',
@@ -288,7 +295,14 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                   child: const Text(
                     '로그인하러 가기',
+<<<<<<< HEAD
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+=======
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+>>>>>>> parent of 877601d (Revert ""챗봇 하단바 짤림 수정, 뒤로가기 버그 수정, 비회원 팝업창 추가"")
                   ),
                 ),
               ),
@@ -305,7 +319,14 @@ class _MainScreenState extends State<MainScreen> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
+<<<<<<< HEAD
                   child: const Text('닫기', style: TextStyle(fontSize: 16)),
+=======
+                  child: const Text(
+                    '닫기',
+                    style: TextStyle(fontSize: 16),
+                  ),
+>>>>>>> parent of 877601d (Revert ""챗봇 하단바 짤림 수정, 뒤로가기 버그 수정, 비회원 팝업창 추가"")
                 ),
               ),
             ],
